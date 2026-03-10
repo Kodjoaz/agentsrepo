@@ -53,9 +53,6 @@ def build_parser() -> argparse.ArgumentParser:
     remove_parser = subparsers.add_parser("remove", help="Remove a task.")
     remove_parser.add_argument("id", type=int, help="ID of the task to remove.")
 
-    # Suppress linter warnings for unused variables (they document the API).
-    _ = add_parser, list_parser, complete_parser, remove_parser
-
     return parser
 
 
