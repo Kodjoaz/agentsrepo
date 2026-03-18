@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1773869696" lines-covered="7" lines-valid="7" branches-covered="2" branches-valid="2">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="SampleLibrary" line-rate="1" branch-rate="1" complexity="2">
+      <classes>
+        <class name="SampleLibrary.Greeter" filename="Source\agentsrepo\SampleLibrary\Greeter.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="SayHello" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="6" hits="5" branch="False" />
+                <line number="7" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="4" branch="False" />
+                <line number="9" hits="4" branch="False" />
+                <line number="10" hits="4" branch="False" />
+                <line number="12" hits="5" branch="False" />
+                <line number="13" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="5" branch="False" />
+            <line number="7" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="8" hits="4" branch="False" />
+            <line number="9" hits="4" branch="False" />
+            <line number="10" hits="4" branch="False" />
+            <line number="12" hits="5" branch="False" />
+            <line number="13" hits="5" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
